@@ -1,0 +1,52 @@
+.n-wrapper{
+  display: flex;
+  justify-content: space-between;
+  height: 10vh;
+    .n-left {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 3rem;
+      .n-name{
+        font-size: 1.3rem;
+        font-weight: bold;
+      }
+    }
+    .n-right{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5rem;
+      .n-list>ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+        gap: 4rem;
+        cursor: pointer;
+        }
+        .n-list>ul>li{
+          font-weight: 700;
+          &:hover{
+            color: var(--orange) !important;
+          }
+        }
+          
+      .n-button{
+        padding: 11px 26px 11px 26px;
+        &:hover{
+          transform: scale(1.1);
+          cursor: pointer;
+        }
+      }
+    }
+}
+
+@media screen and (max-width: 480px ) {
+  .n-list{
+    display: none;
+  }
+  .n-button{
+    display: none;
+  }
+}

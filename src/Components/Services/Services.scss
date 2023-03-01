@@ -1,0 +1,109 @@
+.services{
+    display: flex;
+    padding: 0 3rem 0 3rem;
+    height: 90vh;
+    margin-bottom: 8rem;
+    margin-top: 11rem;
+    position: relative;
+    .awesome{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: flex-start;
+        flex: 1;
+        >:nth-child(1){
+          font-size: 3rem;
+          font-weight: bold;
+          color: var(--black);
+        }
+        >:nth-child(2){
+          font-size: 3rem;
+          font-weight: bold;
+          color: var(--orange);
+        }
+        >:nth-child(3){
+          color: var(--gray);
+          font-size: 14px;
+          margin-top: 1rem;
+        }
+        .s-button{
+          margin-top: 3rem;
+          padding: 11px 26px 11px 26px;
+          &:hover{
+            transform: scale(1.1);
+            cursor: pointer;
+          }
+        }
+        .blur{
+          position: absolute;
+          width: 22rem;
+          height: 17rem;
+          border-radius: 50%;
+          background: #edd0ff;
+          z-index: -9;
+          top: 18rem;
+          left: -5rem;
+          filter:blur(72px)
+        }
+    }
+    .cards{
+      display: flex;
+      flex: 1;
+      .cards-conteiner{
+        position: relative;
+      }
+      .cards-glasses{
+        position: relative;
+      }
+      .cards-humble{
+        position: relative;
+      }
+      .blur-cards{
+          position: absolute;
+          width: 30rem;
+          height: 17rem;
+          border-radius: 50%;
+          background: #edd0ff;
+          z-index: -9;
+          top: 15rem;
+          left: 50rem;
+          filter:blur(72px)
+        
+      }
+    }
+}
+
+@media screen and (max-width:480px) {
+  .services{
+    margin-top: 0;
+    flex-direction: column;
+    gap: 5rem;
+    height: 66rem;
+    padding: 0;
+    .awesome{
+      >:nth-child(1),
+      >:nth-child(2){
+        font-size: 2.4rem;
+      }
+      .blur{
+        display: none;
+      }
+    }
+  }
+  .cards{
+    position: static;
+    display: flex;
+    flex-direction: column;
+  }
+  .cards-conteiner{
+    left:40rem !important;
+  }
+  .cards-glasses{
+    left:40rem !important;
+    top: 2rem !important;
+  }
+  .cards-humble{
+    left:40rem !important;
+    top: 4rem !important;
+  }
+}

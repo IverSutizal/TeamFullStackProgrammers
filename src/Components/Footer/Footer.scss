@@ -1,0 +1,29 @@
+.footer{
+  display: flex;
+  align-items: center;
+  margin: -0.5rem -3.5rem;
+  position: relative;
+  margin-top: 4rem;
+  .f-icons{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    transform: scale(1.5);
+    gap: 2rem;
+    margin-top: 30rem;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .footer{
+    margin-top: 8rem;
+    height: 100px;
+  }
+  .f-icons{
+    top: -30rem;
+    transform: scale(0.8) !important;
+  }
+}

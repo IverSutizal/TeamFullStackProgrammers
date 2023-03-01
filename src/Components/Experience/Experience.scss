@@ -1,0 +1,16 @@
+.experience{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7rem;
+    height: 30vh;
+    margin-bottom: 8rem;
+    position: relative;
+}
+
+@media screen and (max-width:480px) {
+    .experience{
+        flex-direction: column;
+        margin-top: 65rem;
+    }
+}

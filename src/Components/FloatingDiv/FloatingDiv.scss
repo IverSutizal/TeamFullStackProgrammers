@@ -1,0 +1,22 @@
+.floatingdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 28px 10px 0px;
+    height: 4.5rem;
+    box-shadow: var(--boxShadow);
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+    :nth-child(1){
+        transform: scale(0.4);
+    }
+    :nth-child(2){
+        color: var(--black);
+    }
+}
+.floatingdiv>span{
+    >span{
+        color: black;
+    }
+}
