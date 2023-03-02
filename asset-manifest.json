@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/TeamFullStackProgramadores/static/css/main.3877be36.css",
+    "main.js": "/TeamFullStackProgramadores/static/js/main.e0fd8a45.js",
+    "static/media/Screenshot_5.jpg": "/TeamFullStackProgramadores/static/media/Screenshot_5.84b1a03fb57b7113f306.jpg",
+    "static/media/Screenshot_1.jpg": "/TeamFullStackProgramadores/static/media/Screenshot_1.41c31026dceaa1f7cdca.jpg",
+    "static/media/boy.png": "/TeamFullStackProgramadores/static/media/boy.5ca4b670a32b71681d2c.png",
+    "static/media/glassesimoji.png": "/TeamFullStackProgramadores/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
+    "static/media/thumbup.png": "/TeamFullStackProgramadores/static/media/thumbup.e06790ba656f0397cbe5.png",
+    "static/media/humble.png": "/TeamFullStackProgramadores/static/media/humble.c8b32b53675e68978981.png",
+    "static/media/heartemoji.png": "/TeamFullStackProgramadores/static/media/heartemoji.26b1b6ed5e0e44083b28.png",
+    "static/media/wave.png": "/TeamFullStackProgramadores/static/media/wave.fdfef4069ad90f610990.png",
+    "static/media/crown.png": "/TeamFullStackProgramadores/static/media/crown.dbe416beae9b49b842ab.png",
+    "static/media/Vector2.png": "/TeamFullStackProgramadores/static/media/Vector2.28db5bfd58081dd1df1b.png",
+    "static/media/glasses.png": "/TeamFullStackProgramadores/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
+    "index.html": "/TeamFullStackProgramadores/index.html",
+    "main.3877be36.css.map": "/TeamFullStackProgramadores/static/css/main.3877be36.css.map",
+    "main.e0fd8a45.js.map": "/TeamFullStackProgramadores/static/js/main.e0fd8a45.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3877be36.css",
+    "static/js/main.e0fd8a45.js"
+  ]
+}
