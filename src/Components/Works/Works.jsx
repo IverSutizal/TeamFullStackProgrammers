@@ -18,9 +18,10 @@ const Works = () => {
     <div className='works'>
       <div className="i-left">
         <div className="i-name">
-          <span style={{color: darkMode? 'white' : ''}}>Works for All these</span>
-          <span>Brands & Clients</span>
-          <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, cupiditate officia? Aut odio autem voluptatibus adipisci rerum ab deleniti excepturi, dolore dolores</span>
+          <span style={{color: darkMode? 'white' : ''}}>Learned technologies</span>
+          <span>HOLBERTON SCHOOL PERÚ</span>
+          <span>The good thing about being in Holberton is that we can study at our rhythm, it allows us to learn many technical skills such as non -techniques.
+During this time we managed to carry out many projects and thus allowed us to continue growing professionally.</span>
         </div>
         <button className='button i-button'>Hire Me</button>
         <div className="blur" style={{
@@ -35,7 +36,7 @@ const Works = () => {
           initial={{ rotate: 45 }}
           whileInView={{ rotate: 0 }}
           viewport={{ margin: '-40px'}}
-          transition={{duration: 3.5, type: 'spring'}}
+          transition={{duration: 4.5, type: 'spring'}}
           className='w-background'>
           <div className="blue" style={{
             backgroundColor:'#1986dd',
@@ -60,7 +61,8 @@ const Works = () => {
           </div>
           <div className='img-conteiner upword' style={{
             top: '-4rem',
-            left: '8rem'
+            left: '8rem',
+            transform: 'scale(0.1)',
           }}>
             <div className='img-withe'>
               <img src={Upwork} alt="" />
@@ -68,7 +70,8 @@ const Works = () => {
           </div>
           <div className='img-conteiner shopify' style={{
             top: '8rem',
-            left: '12rem'
+            left: '12rem',
+            transform: 'scale(0.14)',
           }}>
             <div className='img-withe'>
               <img src={Shopify} alt="" />
@@ -76,7 +79,8 @@ const Works = () => {
           </div>  
           <div className='img-conteiner facebbok' style={{
             top: '20rem',
-            left: '-9rem'
+            left: '-9rem',
+            transform: 'scale(0.1)'
           }}>
             <div className='img-withe'>
               <img src={Facebook} alt="" />
@@ -84,7 +88,8 @@ const Works = () => {
           </div>
           <div className='img-conteiner fiver' style={{
             top: '8rem',
-            left: '-31rem'
+            left: '-31rem',
+            transform: 'scale(0.1)',
           }}>
             <div className='img-withe'>
               <img src={Fiver} alt="" />

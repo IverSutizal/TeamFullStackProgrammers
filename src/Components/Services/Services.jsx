@@ -19,13 +19,13 @@ const Services = () => {
     <div className='services' id='Services'>
       {/* left side */}
       <div className="awesome">
-        <span style={{color: darkMode? 'white' : ''}}>My Awesome</span>
-        <span>services</span>
-        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt perspiciatis 
+        <span style={{color: darkMode? 'white' : ''}}>Our impressive</span>
+        <span>Proyect</span>
+        <span>During all this time, the team focused on applying its skills and attitudes in each part of the project. Together we managed to carry out the GBS Corporation project "Monitoring of judicial processes". 
         <br/> 
-        alias optio iusto voluptatem ratione illo nihil, iste eum temporibus id.
+       
         </span>
-        <button className="button s-button">Download CV</button>
+
         <div className="blur" style={{
           background:'#abf1ff94',
         }}
@@ -35,15 +35,15 @@ const Services = () => {
       <div className="cards">
         <motion.div
         initial = {{left: '34rem'}}
-        whileInView = {{left:'23rem'}}
+        whileInView = {{left:'16rem'}}
         transition = {transition}
         className='cards-conteiner' style={{
           left:'16.5rem'
         }}>
           <Card 
             emoji = {HeartEmoji}
-            heading = {'Design'}
-            detail = {'Figma, Sketch, Photoshop, Adobe ilustrator, Adobe xd'}
+            heading = {'IVER SUTIZAL'}
+            detail = {'Software Engineer, Audiovisual Producer, Data Analyst, Marketing, Design'}
           />
         </motion.div>
         <motion.div 
@@ -56,8 +56,8 @@ const Services = () => {
         }}>
           <Card 
             emoji = {Glasses}
-            heading = {'Developer'}
-            detail = {'Html, Css, JavaScript, React, NodeJs, Express'}
+            heading = {'JULIAN ZEA'}
+            detail = {'Software Engineer, Audiovisual content generator, video editor, video game creator'}
           />
         </motion.div>
         <motion.div 
@@ -70,8 +70,8 @@ const Services = () => {
         }}>
           <Card 
             emoji={Humble}
-            heading = {'UI/UX'}
-            detail = {'Lorem ipsum durmy text are usually use in section where we need some rando text'}
+            heading = {'CARLOS CANTORAL'}
+            detail = {'Software Engineer, Audiovisual content generator, social communicator, collector'}
           />
         </motion.div>
         <div className="blur-cards" style={{

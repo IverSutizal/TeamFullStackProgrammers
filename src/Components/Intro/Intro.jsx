@@ -26,27 +26,25 @@ const Intro = () => {
     <div className='intro'>
       <div className="i-left">
         <div className="i-name">
-          <span style={{color: darkMode? 'white' : ''}}>Hy! I Am</span>
-          <span>Alexis Campomanes</span>
-          <span>Fronted Developer with high level of experience in web designing and development, producting the Qhuality work</span>
+          <span style={{color: darkMode? 'white' : ''}}>TEAM</span>
+          <span>Full Stack Programmers</span>
+          <span>Full Stack developers, Fronnd, Backend and Database. We have experience in corporate projects with large digital scale.</span>
         </div>
         <button className='button i-button'>Hire Me</button>
         <div className="i-icons">
-          <a href="https://github.com/Alexis-Campomanes">
+          <a href="https://github.com/IverSutizal/Proyecto-final">
             <img src={GitHub} alt="" />
           </a>
-          <a href="https://www.linkedin.com/in/alexiscampomanes/">
+          <a href="https://www.linkedin.com/pulse/seguimiento-de-procesos-judiciales-iver-sutizal/?trackingId=tE1KHZJaq%2BGtipkuO5a97g%3D%3D">
             <img src={LinkedIn} alt="" />
           </a>
-          <a href="https://www.linkedin.com/in/alexiscampomanes/">
-            <img src={Twitter} alt="" />
-          </a>
+
         </div>
       </div>
       <div className="i-right">
         <img src={Vector1} alt="" />
         <img src={Vector2} alt="" />
-        <img src={Boy} alt="" />
+        <img src={Boy} alt=""/>
         <motion.img 
         initial={{left:'-36%'}}
         whileInView ={{left:'-24%'}}
@@ -60,7 +58,7 @@ const Intro = () => {
         left: '25rem',
         top: '3rem'
         }} className= 'floating-div'>
-        <FloatingDiv imagen={Crown} text1={'web'} text2={'Developer'} />
+        <FloatingDiv imagen={Crown} text1={'Holberton'} text2={'School Perú'} />
       </motion.div>
       <motion.div 
         initial={{left:'9rem', top: '29rem'}}
@@ -70,7 +68,7 @@ const Intro = () => {
         bottom:'8.6rem',
         left: '2rem'
       }} className= 'floating-div'>
-      <FloatingDiv imagen={Thumbup} text1={'Best Design'} text2={'Award'}/>
+      <FloatingDiv imagen={Thumbup} text1={'Programmer'} text2={'Full Stack'}/>
       </motion.div>
       {/* blur divs */}
       <div className="blur" style={{ 

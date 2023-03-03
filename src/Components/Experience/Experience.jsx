@@ -5,9 +5,9 @@ import './Experience.scss'
 const Experience = () => {
   return (
     <div className='experience' id='Experience'>
-      <Archievement add={'8+'} text={'years'} text1={'Experience'} />
-      <Archievement add={'20+'} text={'completed'} text1={'Projects'} />
-      <Archievement add={'5+'} text={'companies'} text1={'Work'} />
+      <Archievement add={'9+'} text={'months'} text1={'Projects'} />
+      <Archievement add={'3+'} text={'quarter'} text1={'Study'} />
+      <Archievement add={'6+'} text={'week'} text1={'Experience'} />
     </div>
   )
 }
