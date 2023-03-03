@@ -1,24 +1,28 @@
 {
   "files": {
-    "main.css": "/TeamFullStackProgrammers/static/css/main.3877be36.css",
-    "main.js": "/TeamFullStackProgrammers/static/js/main.64830aaa.js",
-    "static/media/Screenshot_5.jpg": "/TeamFullStackProgrammers/static/media/Screenshot_5.84b1a03fb57b7113f306.jpg",
-    "static/media/Screenshot_1.jpg": "/TeamFullStackProgrammers/static/media/Screenshot_1.41c31026dceaa1f7cdca.jpg",
-    "static/media/boy.png": "/TeamFullStackProgrammers/static/media/boy.5ca4b670a32b71681d2c.png",
+    "main.css": "/TeamFullStackProgrammers/static/css/main.68aa6d05.css",
+    "main.js": "/TeamFullStackProgrammers/static/js/main.5f9d68d0.js",
+    "static/media/boy.png": "/TeamFullStackProgrammers/static/media/boy.da456fb8c3b8fa7897ab.png",
+    "static/media/Screenshot_45.jpg": "/TeamFullStackProgrammers/static/media/Screenshot_45.d6e5add34c76d49a3042.jpg",
+    "static/media/Facebook.png": "/TeamFullStackProgrammers/static/media/Facebook.dea924d737bb84eb9ce3.png",
+    "static/media/Screenshot_1.jpg": "/TeamFullStackProgrammers/static/media/Screenshot_1.7efb20be354aa3b23745.jpg",
+    "static/media/Screenshot_5.jpg": "/TeamFullStackProgrammers/static/media/Screenshot_5.d163e6f016df1decd4b6.jpg",
+    "static/media/Upwork.png": "/TeamFullStackProgrammers/static/media/Upwork.4de5d2224c60b7fbde73.png",
     "static/media/glassesimoji.png": "/TeamFullStackProgrammers/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
+    "static/media/fiverr.png": "/TeamFullStackProgrammers/static/media/fiverr.4e67641bb68b658d9b2b.png",
+    "static/media/humble.png": "/TeamFullStackProgrammers/static/media/humble.811d89e297fc42aa4bc1.png",
+    "static/media/glasses.png": "/TeamFullStackProgrammers/static/media/glasses.da4a9ddaa2513e6ab0e7.png",
+    "static/media/heartemoji.png": "/TeamFullStackProgrammers/static/media/heartemoji.54e51a0e20c2c924f1ee.png",
+    "static/media/Shopify.png": "/TeamFullStackProgrammers/static/media/Shopify.b0f6310eaf661fa07d2d.png",
     "static/media/thumbup.png": "/TeamFullStackProgrammers/static/media/thumbup.e06790ba656f0397cbe5.png",
-    "static/media/humble.png": "/TeamFullStackProgrammers/static/media/humble.c8b32b53675e68978981.png",
-    "static/media/heartemoji.png": "/TeamFullStackProgrammers/static/media/heartemoji.26b1b6ed5e0e44083b28.png",
     "static/media/wave.png": "/TeamFullStackProgrammers/static/media/wave.fdfef4069ad90f610990.png",
-    "static/media/crown.png": "/TeamFullStackProgrammers/static/media/crown.dbe416beae9b49b842ab.png",
     "static/media/Vector2.png": "/TeamFullStackProgrammers/static/media/Vector2.28db5bfd58081dd1df1b.png",
-    "static/media/glasses.png": "/TeamFullStackProgrammers/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
     "index.html": "/TeamFullStackProgrammers/index.html",
-    "main.3877be36.css.map": "/TeamFullStackProgrammers/static/css/main.3877be36.css.map",
-    "main.64830aaa.js.map": "/TeamFullStackProgrammers/static/js/main.64830aaa.js.map"
+    "main.68aa6d05.css.map": "/TeamFullStackProgrammers/static/css/main.68aa6d05.css.map",
+    "main.5f9d68d0.js.map": "/TeamFullStackProgrammers/static/js/main.5f9d68d0.js.map"
   },
   "entrypoints": [
-    "static/css/main.3877be36.css",
-    "static/js/main.64830aaa.js"
+    "static/css/main.68aa6d05.css",
+    "static/js/main.5f9d68d0.js"
   ]
 }
